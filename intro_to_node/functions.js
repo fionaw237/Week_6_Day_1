@@ -1,15 +1,15 @@
-// function sayHello(greeting, name = "World") {
-//   return `${greeting}, ${name}!`
-// }
-//
-// console.log('sayHello message:', sayHello("Good morning", "Fiona"))
+function sayHello(greeting, name = "World") {
+  return `${greeting}, ${name}!`
+}
+
+console.log('sayHello message:', sayHello("Good morning", "Fiona"))
 
 // anonymous function
-// var add = function(firstNumber, secondNumber){
-//   return firstNumber + secondNumber;
-// }
-//
-// console.log('1 + 3 with add function:', add(1, 3));
+var add = function(firstNumber, secondNumber){
+  return firstNumber + secondNumber;
+}
+
+console.log('1 + 3 with add function:', add(1, 3));
 
 //------------------------------------------------------
 
@@ -33,22 +33,22 @@
 //
 //   Your function should return `true` if the given string is a `key` on the given object and `false` if the object does not have a key that matches the string. Store this function in an appropriately named variable to invoke it.
 
-// var isKey = function(object, string){
-//   for (key in object){
-//     if (key == string){
-//       return true
-//     }
-//   }
-//   return false
-// }
-//
-// var testObject = {
-//   name: 'Wojtek',
-//   age: 30,
-//   address: "Somewhere"
-//  }
-//
-// console.log(isKey(testObject, "address"));
+var isKey = function(object, string){
+  for (var key in object){
+    if (key == string){
+      return true
+    }
+  }
+  return false
+}
+
+var testObject = {
+  name: 'Wojtek',
+  age: 30,
+  address: "Somewhere"
+ }
+
+console.log(isKey(testObject, "address"));
 
 // keys = Object.keys(object) - gives array of all the keys
 // if keys.includes(string) etc...

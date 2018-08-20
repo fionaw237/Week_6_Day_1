@@ -30,31 +30,31 @@
 //---------------------------------------------------------------
 
 // // USING VAR
-// let isItFive = function(number){
-//   if (number === 5) {
-//     var result = true;
-//   }
-//   else {
-//     var result = false;
-//   }
-//   return result
-// }
-//
-// console.log(isItFive(5));
+let isItFive = function(number){
+  if (number === 5) {
+    var result = true;
+  }
+  else {
+    var result = false;
+  }
+  return result
+}
+
+console.log(isItFive(5));
 //
 // // USING LET
-// let isItFive = function(number){
-//   let result;
-//   if (number === 5) {
-//     result = true;
-//   }
-//   else {
-//     result = false;
-//   }
-//   return result
-// }
-//
-// console.log(isItFive(1));
+let isItFive = function(number){
+  let result;
+  if (number === 5) {
+    result = true;
+  }
+  else {
+    result = false;
+  }
+  return result
+}
+
+console.log(isItFive(1));
 //---------------------------------------------------------------
 
 // CONST
